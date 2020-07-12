@@ -1,0 +1,7 @@
+1. menu jeux
+2. choix perso
+itération
+3. affichage carte (défilement histoire dans une fenêtre pop-up
+4. mini jeux
+
+fin du jeux si vie perdue
