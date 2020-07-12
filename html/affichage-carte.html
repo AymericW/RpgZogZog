@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <div id="fenetre-principale">
+        <!--Avoir un système qui permet d'indiquer sur quelle case le personnage se trouve.
+        Déplacement du personnage.-->
+        <div id="carte-relative">
+            <div id="carte-absolute">
+                <div id="emplacement_1"></div><!--Actif au premier tour du jeux-->
+                <div id="emplacement_1a"></div>
+                <div id="emplacement_1b"></div>
+                <div id="emplacement_1c"></div>
+                <div id="emplacement_2"></div>
+                <div id="emplacement_2a"></div>
+                <div id="emplacement_2b"></div>
+                <div id="emplacement_2c"></div>
+                <div id="emplacement_3"></div>
+                <div id="emplacement_3a"></div>
+                <div id="emplacement_3b"></div>
+                <div id="emplacement_3c"></div>
+                <div id="emplacement_4"></div>
+                <div id="emplacement_4a"></div>
+                <div id="emplacement_4b"></div>
+                <div id="emplacement_4C"></div>
+                <div id="emplacement_fin"></div>
+            </div>
+        </div>
+        <!--En fonction du type d'évent, afficher le bon type d'event (mini jeux ou évent papier => génération d'événement aléatoire)-->
+        <div id="dé"></div><!--Le lancé de dés s'effectue une fois arrivé sur la case pour voir le nombre d'ennemi, faire surbriller le dés pour inviter le joueur à cliquer dessus-->
+        <div id="champ-texte"></div>
+    </div>
+    <footer>
+        <div id="copyright"></div>
+        <div id="annee-creation"></div>
+    </footer>
+</body>
+</html>
